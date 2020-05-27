@@ -4,6 +4,8 @@ This package provides a node.js demo MQTT client.
 
 ## Usage
 
+> SSL encryption will be added shortly and is mandatory for production use!
+
 ### Auth
 
 Given a running instance of the combined MQTT broker and proxy service, data can be sent to the service as follows:
@@ -12,7 +14,7 @@ Devices are identified by their engidesk signed key:
 
 Given the engidesk provided device key 
 
-`2f9c02d1d12649a18848d24b32709638ep%Nn&0uhK1VADjy0WP/2OpFr7OXfFvBRQgoi31S3mUa2L7VGuZaICXRpbe9mesKkMrwUFTmNeteuGgTEQ9oZ2imQDSM8w==`
+`2f9c02d1d12649a18848d24b32709638ep%Nn&0uhK1VADjy0WP/2OpFr7OXfFvBRQgoi31S3mUa2L7VGuZaICXRpbe9mesKkMrwUFTmNeteuGgTEabcZ2imQDSM8w==`
 
 The MQTT username is the first *32* characters:
 
@@ -20,7 +22,7 @@ The MQTT username is the first *32* characters:
 
 The MQTT password is the rest (characters 33 to 128):
 
-`hK1VADjy0WP/2OpFr7OXfFvBRQgoi31S3mUa2L7VGuZaICXRpbe9mesKkMrwUFTmNeteuGgTEQ9oZ2imQDSM8w==`
+`hK1VADjy0WP/2OpFr7OXfFvBRQgoi31S3mUa2L7VGuZaICXRpbe9mesKkMrwUFTmNeteuGgTEabcZ2imQDSM8w==`
 
 ### Sending data from device to cloud
 
