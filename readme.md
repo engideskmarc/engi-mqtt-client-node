@@ -8,7 +8,7 @@ This package provides a node.js demo MQTT client.
 
 ### Auth
 
-Given a running instance of the combined MQTT broker and proxy service, data can be sent to the service as follows:
+Given a running instance of the *engidesk MQTT broker and proxy service*, data can be sent to the service as follows:
 
 Devices are identified by their engidesk signed key:
 
@@ -16,11 +16,11 @@ Given the engidesk provided device key
 
 `2f9c02d1d12649a18848d24b32709638ep%Nn&0uhK1VADjy0WP/2OpFr7OXfFvBRQgoi31S3mUa2L7VGuZaICXRpbe9mesKkMrwUFTmNeteuGgTEabcZ2imQDSM8w==`
 
-The MQTT username is the first *32* characters:
+The MQTT **username** is the first *32* characters:
 
 `2f9c02d1d12649a18848d24b32709638`
 
-The MQTT password is the rest (characters 33 to 128):
+The MQTT **password** is the rest (characters 33 to 128):
 
 `hK1VADjy0WP/2OpFr7OXfFvBRQgoi31S3mUa2L7VGuZaICXRpbe9mesKkMrwUFTmNeteuGgTEabcZ2imQDSM8w==`
 
